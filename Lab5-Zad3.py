@@ -1,4 +1,4 @@
-def powitanie(imie="Użytkowniku", jezyk="polski"):
+def powitanie(imie="Użytkowniku", jezyk="dpolski"):
     if jezyk == "polski":
         print(f"Cześć, {imie}.")
     elif jezyk == "angielski":
@@ -11,5 +11,5 @@ def powitanie(imie="Użytkowniku", jezyk="polski"):
 powitanie("Anna", "polski")
 powitanie("John", "angielski")
 powitanie("Hans", "niemiecki")
-powitanie("Maria", "francuski")
+powitanie("Kylian", "francuski")
 powitanie()
